@@ -1,5 +1,4 @@
 package model;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,7 +10,7 @@ public class Economy {
         Double runs;
         int balls;
 
-    public Economy(Double runs,int  balls){
+    public Economy(double runs, int  balls){
         this.balls = balls;
         this.runs = runs;
 

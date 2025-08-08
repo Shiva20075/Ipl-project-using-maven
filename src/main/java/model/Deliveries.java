@@ -25,6 +25,7 @@ public class Deliveries {
     private int penaltyRuns;
     private int batsManRuns;
     private int extraRuns;
-    private double totalRuns;
+    private int totalRuns;
+    private String playerDismissed;
 
 }
